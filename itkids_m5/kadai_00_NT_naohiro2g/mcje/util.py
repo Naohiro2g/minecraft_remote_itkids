@@ -1,5 +1,9 @@
-import collections
-
+try:
+    import collections.abc as collections
+except ImportError:
+    import collections as collections
+    
+    
 def flatten(l):
     for e in l:
         if isinstance(e, collections.Iterable) and not isinstance(e, str):
