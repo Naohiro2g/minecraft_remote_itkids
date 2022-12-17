@@ -1,6 +1,26 @@
 from mcje.minecraft import Minecraft
 import param_MCJE as param
 
+def make_outkaidan_UP(mc,x=48, y=1, z=-5, outkaidanblock=param.GLASS):
+    use_x=x 
+    use_z=z
+    use_y=y
+    blocktipe_outkaidan=outkaidanblock
+    for i in range(10):
+        mc.setBlocks(-use_x,use_y,use_z,-(use_x - 4),use_y + 1,use_z - 3,blocktipe_outkaidan)
+        use_y += 1
+        use_z -= 4
+
+def make_outkaidan_right(mc,x,y,z,outkaidanblock=param.GLASS):
+    use_x=x 
+    use_z=z
+    use_y=y
+    blocktipe_outkaidan=outkaidanblock
+    for i in range(10):
+            mc.setBlocks(-use_x,use_y,use_z,-(use_x - 4),use_y + 1,use_z - 3,blocktipe_outkaidan)
+            use_y += 1
+            use_x -= 5
+
 def make_outkaidan(mc,x=48,y=1,z=-5,outkaidanblock=param.GLASS):
     blocktipe_outkaidan=outkaidanblock
     use_y=y
