@@ -3,7 +3,7 @@
 from mcje.minecraft import Minecraft
 import param_MCJE as param
 
-import make_kansito
+import make_kansito 
 import make_kaidan
 import make_insidekaidan
 

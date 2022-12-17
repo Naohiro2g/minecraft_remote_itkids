@@ -3,7 +3,7 @@ import param_MCJE as param
 import make_kaidan
 
 def make_insidekaidan_S(mc,x=-3,y=1,z=-3,dansu=6,insideblock=param.SEA_LANTERN_BLOCK):
-    blocktipe_insideblock=insideblock
+    blocktipe_insideblock=insideblock 
     use_x = x
     use_y = y
     use_z = z

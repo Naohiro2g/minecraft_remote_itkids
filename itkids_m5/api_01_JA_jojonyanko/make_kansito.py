@@ -5,7 +5,7 @@ def make_kannsito(mc, x=28, z=28, y=76, sityuublock=param.GLOWSTONE, kahenblock=
 
     blocktipe_sityu = sityuublock
     blocktipe_kahen = kahenblock
-    blocktipe_zyouhen = zyouhenblock
+    blocktipe_zyouhen = zyouhenblock 
     kudow = param.AIR
 
     mc.setBlocks(x,1,z,x - 12,y-1,z - 12, blocktipe_sityu)
