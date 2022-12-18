@@ -2,7 +2,7 @@
 
 1. 金ブロックをひとつ置く
 （x=5, y=70, z=5）
-![<img scr="./image/pictures/kadai1.png" width="400">](images/pictures/kadai1.png)
+![<img scr="image/pictures/kadai1.png" width="400">](images/pictures/kadai1.png)
 1. 柱を建てる
 （x=5, z=10に、y=63から高さ10で。）
 ![](images/pictures/2022-12-04_10.24.26.png)
