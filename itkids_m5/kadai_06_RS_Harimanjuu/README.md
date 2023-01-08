@@ -15,7 +15,7 @@
 1. 並んだ柱を消す
 （空気を置くと消える。）
 
-![<img src="./images/kadai4-1.png" width="400">](images/kadai4-1.png)![<img src="./images/kadai4-2.png" width="400">](images/kadai4-2.png)
+![<img src="./images/kadai4-1.png" width="80%">](images/kadai4-1.png)![<img src="./images/kadai4-2.png" width="80%">](images/kadai4-2.png)
 1. 柱をz方向に寝かせる
 （地上y=63に、x=0, z=5から10ブロックで。）
 
