@@ -10,9 +10,9 @@ x = 10
 y = 63
 z = 5
 
-param.GLASS = "1"
-param.SEA_LANTERN_BLOCK = "2"
-
+A = param.GLASS
+B = param.SEA_LANTERN_BLOCK
+C = param.GLOWSTONE
 
 for n in range(8):
     for i in range(10):
