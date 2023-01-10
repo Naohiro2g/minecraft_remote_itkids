@@ -1,6 +1,6 @@
 from mcje.minecraft import Minecraft
 import param_MCJE as param
-import random as rd
+
 from time import sleep
 
 mc = Minecraft.create(port=param.PORT_MC)
