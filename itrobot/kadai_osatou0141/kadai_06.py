@@ -10,6 +10,10 @@ x = 10
 y = 63
 z = 5
 
+A = param.GLASS
+B = param.SEA_LANTERN_BLOCK
+C = param.GLOWSTONE
+
 for n in range(8):
     for i in range(10):
         mc.setBlock(x, y, z, param.SEA_LANTERN_BLOCK)
