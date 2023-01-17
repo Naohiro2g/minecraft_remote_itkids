@@ -14,7 +14,8 @@
 （柱をx方向に8本、地上に寝かせる。x=10,z=5から。）
 7. 壁、階段を作る（未完成）
 8. ピラミッドを作る（未完成）
-[<img src="./images/kadai_03.png" width="300">](./images/kadai_03.png)[<img src="./images/kadai_05.png" width="300">](./images/kadai_05.png)
+
+[<img src="./images/kadai_03.png" width="300">](./images/kadai_03.png) [<img src="./images/kadai_06.png" width="300">](./images/kadai_06.png)
 [<img src="./images/kadaizidori.png" width="400">](./images/kadaizidori.png)
 
 ```minecraft
