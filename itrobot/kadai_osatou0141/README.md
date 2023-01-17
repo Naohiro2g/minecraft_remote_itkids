@@ -15,8 +15,9 @@
 7. 壁、階段を作る（未完成）
 8. ピラミッドを作る（未完成）
 
-[<img src="./images/kadai_03.png" width="300">](./images/kadai_03.png) [<img src="./images/kadai_06.png" width="300">](./images/kadai_06.png)
-[<img src="./images/kadaizidori.png" width="400">](./images/kadaizidori.png)
+[<img src="./images/kadai_03.png" width="400">](./images/kadai_03.png)高さはそれぞれランダム
+[<img src="./images/kadai_06.png" width="400">](./images/kadai_06.png)とても目に悪い
+[<img src="./images/kadaizidori.png" width="400">](./images/kadaizidori.png)課題6までの全体図
 
 ```minecraft
 /tp 0 80 0
