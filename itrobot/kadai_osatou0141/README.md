@@ -14,7 +14,7 @@
 （柱をx方向に8本、地上に寝かせる。x=10,z=5から。）
 7. 壁、階段を作る（未完成）
 8. ピラミッドを作る（未完成）
-
+[<img src="./images/kadai_03.png" width="300">](./images/kadai_03.png)[<img src="./images/kadai_05.png" width="300">](./images/kadai_05.png)
 [<img src="./images/kadaizidori.png" width="400">](./images/kadaizidori.png)
 
 ```minecraft
@@ -24,7 +24,7 @@
 ```
 
 ```bash
-cd itkids_m5/kadai_00_NT_naohiro2g
+cd itrobot/kadai_osatou0141
 ls -la
 python hello.py
 python axis_flat.py
