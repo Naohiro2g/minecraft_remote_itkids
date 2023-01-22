@@ -27,13 +27,7 @@
 
 
    まずはノーマルクリーパー一匹召喚しちゃいましょう
-   `faces = ["normal"]
-   x = -20
-   y = 63
-   for face in faces:
-	set_creeper(mc, x=x, block_id="green_wool", face=face)
-	mc.postToChat(face)
-	x += 10`
+   `faces = ["normal"]  x = -20  y = 63  for face in faces:  set_creeper(mc, x=x, block_id="green_wool", face=face)   mc.postToChat(face)  x += 10`
 
 
    ![](image/one.png)
