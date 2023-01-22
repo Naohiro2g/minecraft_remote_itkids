@@ -20,14 +20,23 @@
 
 
 
-   周りは綺麗にしておきます。これって意外と大事なこと。
+   周りは綺麗にしておきます。これって意外と大事なこと。(リセットしたいなら、「demo1.py」を実行しましょう。)
+
    ![](image/void.png)
 
 
 
    まずはノーマルクリーパー一匹召喚しちゃいましょう
+   `faces = ["normal"]
+   x = -20
+   y = 63
+   for face in faces:
+	set_creeper(mc, x=x, block_id="green_wool", face=face)
+	mc.postToChat(face)
+	x += 10`
 
-   ![](image/one.png) ![](image/ノーマル一つ.png)
+
+   ![](image/one.png)
 
    地面の上にぽつんと配置すると、こんな感じでアイテムの「クリーパーの頭」みたいになりますね。
 
