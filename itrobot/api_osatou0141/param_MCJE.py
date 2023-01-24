@@ -36,3 +36,5 @@ DIAMOND_BLOCK = "diamond_block"
 FURNACE_INACTIVE = "furnace"
 FURNACE_ACTIVE = "lit_furnace"
 GLASS_PANE = "glass_pane"
+
+GHAST = "GHAST"
