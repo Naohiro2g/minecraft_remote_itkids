@@ -36,5 +36,6 @@ DIAMOND_BLOCK = "diamond_block"
 FURNACE_INACTIVE = "furnace"
 FURNACE_ACTIVE = "lit_furnace"
 GLASS_PANE = "glass_pane"
-
-GHAST = "GHAST"
+WHITE_WOOL = "white_wool"
+WHITE_TERRACOTTA = "white_terracotta"
+BROWN_TERRACOTTA = "brown_terracotta"
