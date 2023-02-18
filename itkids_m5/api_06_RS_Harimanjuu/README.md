@@ -88,7 +88,7 @@
    
    ## 最後に
 
-   このプログラムはマインクラフトをリモートで制御できる環境がある方でないと動かすことができません。詳しくは、<a href="https://github.com/Naohiro2g/minecraft_remote" target="_blank">マインクラフトのリモート制御</a>を参照してください。
+   このプログラムはマインクラフトをリモートで制御できる環境がある方でないと動かすことができません。<br>詳しくは、<a href="https://github.com/Naohiro2g/minecraft_remote" target="_blank">マインクラフトのリモート制御</a>を参照してください。
 
 
 
