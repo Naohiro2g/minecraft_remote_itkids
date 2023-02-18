@@ -56,8 +56,9 @@ if __name__ == "__main__":
 
 faces = ["normal"]
 
-x = -20 
+x = 0
 y = 63
+
 
 for face in faces:
 	set_creeper(mc, x=x, block_id="green_wool", face=face)
