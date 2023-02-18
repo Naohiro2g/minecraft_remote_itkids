@@ -52,6 +52,25 @@
 
    最後に肌も変えてみましょう。
 
+   ![](image/石クリーパー.png)
+
+   肌の色も変えられるし、何なら顔のパーツの色も変えられます。
+
+   いろいろ遊び放題ってことをわかってくれたらいいと思います。（体は作れないけどね ;) ）
+
+   クリーパーをいろいろやりたい場合は、
+
+   ```
+    faces = ["normal"]
+    x = 0
+    y = 6
+    for face in faces:
+     set_creeper(mc, x=x, block_id="green_wool", face=face)
+     mc.postToChat(face)
+     x += 10 
+   ```
+
+
    
 
 
