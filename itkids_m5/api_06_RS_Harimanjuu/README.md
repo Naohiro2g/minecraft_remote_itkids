@@ -64,6 +64,7 @@
     faces = ["normal"]
     x = 0
     y = 6
+    
     for face in faces:
      set_creeper(mc, x=x, block_id="green_wool", face=face)
      mc.postToChat(face)
