@@ -64,10 +64,9 @@
    ```
     faces = ["normal"]
     x = 0
-    y = 6
 
     for face in faces:
-     set_creeper(mc, x=x, block_id="green_wool", face=face)
+     set_creeper(mc, x=x, y=y, block_id="green_wool", face=face)
      mc.postToChat(face)
      x += 10 
    ```
@@ -79,7 +78,7 @@
    のところはかっこの中に生成したい順番で表情を書いてください。
    <br>上の方に「normal」「smile」などいろいろ載ってます。その言葉通りに入力しないと動作しません。
 
-   x,yなどが書いてあるところにお好みの座標を入れてあげると、その通りに配置できます。
+   x =...が書いてあるところにお好みの座標を入れてあげると、その通りに配置できます。（y,zは省いていますが、追加しても構いません。その場合は、「set_creeper」のカッコ内の「x=x,」の後に「y=y,」と書き足してください。(zも同様です。)）
 
    ```block_id="..."```　のところでblockの種類を変えることができます。param_MCJE.pyというプログラムから、どんなブロックがあるのか見れるので、そこから選んで```"..."``` の中に書き込んでください。
 
@@ -90,10 +89,6 @@
 
    このプログラムはマインクラフトをリモートで制御できる環境がある方でないと動かすことができません。<br>詳しくは、<a href="https://github.com/Naohiro2g/minecraft_remote" target="_blank">マインクラフトのリモート制御</a>を参照してください。
 
-
-
+   ファイル内のプログラムの概要は[こちらから](https://github.com/harimanjuu/minecraft_remote_itkids/blob/main/itkids_m5/api_06_RS_Harimanjuu/test.md)
 
    
-
-
-
