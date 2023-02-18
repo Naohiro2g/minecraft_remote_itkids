@@ -61,7 +61,7 @@ y = 63
 
 
 for face in faces:
-	set_creeper(mc, x=x, block_id="green_wool", face=face)
+	set_creeper(mc, x=x, y=y, block_id="green_wool", face=face)
 	mc.postToChat(face)
 	x += 10
 
