@@ -8,17 +8,20 @@
    - Specifying the creeper's expression
    - Specify the number of creepers
    - Designation of creeper skin and face color
-## 2. このAPIではできないこと
+## 2. What this API can not do
 
-   **まだできることは少ないです。これらは今後改善していくべき項目の一部です。**
-   * クリーパーの向きの指定
-   * クリーパーの体を作ること
-   * クリーパー以外のものを作ること
-   * 設置したクリーパーを動かすこと
+   **There is not much that can be done yet. These are just some of the items that need to be improved in the future**
+   * Specify creeper orientation
+   * Building a creeper's body
+   * Make something other than a creeper
+   * Move installed creepers
   
-## 3. じゃあやってみようではないか
+## 3. Let's try!!
    
-   ことは試し、ということで、先ほどのできることできないことリストを参考にいろいろやっていきましょう。  ”顔だけ”ならば意外と自由が利くようにしているので、結構できることあるのでは...!?  ということで...れでぃごー!!
+   In the meantime, let's try different things, referring to what can and cannot be done.
+   If it's just a face, it's more flexible than you might think.
+   So there are probably quite a few things you can do.  
+   So let's go!
 
 
 
