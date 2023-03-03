@@ -1,12 +1,13 @@
-### [\日本語版はこちらから/](https://github.com/harimanjuu/minecraft_remote_itkids/blob/main/itkids_m5/api_06_RS_Harimanjuu/README_JAPANESE.md)
-# 独自APIの開発　～クリーパーの顔～
-## 1. このAPIでできること
 
-   **このAPIはクリーパーの顔を作ることに特化しています。**
-   - クリーパーの位置の指定
-   - クリーパーの表情の指定
-   - クリーパーの数の指定
-   - クリーパーの肌?や顔の色の指定
+# Development of original API　～Creepar's face～
+#### [\日本語版はこちらから/](https://github.com/harimanjuu/minecraft_remote_itkids/blob/main/itkids_m5/api_06_RS_Harimanjuu/README_JAPANESE.md)
+## 1. What this API can do
+
+   **This API is specialized in making creeper's faces**
+   - Specify the location of the creeper
+   - Specifying the creeper's expression
+   - Specify the number of creepers
+   - Designation of creeper skin and face color
 ## 2. このAPIではできないこと
 
    **まだできることは少ないです。これらは今後改善していくべき項目の一部です。**
