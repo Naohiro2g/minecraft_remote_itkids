@@ -1,3 +1,4 @@
+# [日本語版はこちらから](https://github.com/harimanjuu/minecraft_remote_itkids/blob/main/itkids_m5/api_06_RS_Harimanjuu/README_JAPANESE.md)
 # 独自APIの開発　～クリーパーの顔～
 ## 1. このAPIでできること
 
