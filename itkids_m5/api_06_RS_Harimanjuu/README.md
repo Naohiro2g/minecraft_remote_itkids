@@ -24,21 +24,21 @@
    So let's go!
 
 
-
-   周りは綺麗にしておきます。これって意外と大事なこと。(リセットしたいなら、「demo1.py」を実行しましょう。)
+  Keep it clean. It is surprisingly important.
+  (If you want to reset, run a "demo1.py".)
 
    ![](image/void.png)
 
 
 
-   まずはノーマルクリーパー一匹召喚しちゃいましょう
+   First, summon one normal creeper.
 
 
    ![](image/one.png)
 
-   地面の上にぽつんと配置すると、こんな感じでアイテムの「クリーパーの頭」みたいになりますね。
+   When placed on the ground, it looks like the item "creeper's head" like this.
 
-   これを横にポポポ、と並べちゃいましょう。つながっていてもいいのですが、見にくいので今回は少し間をあけます。
+   Let's put this side by side. You can connect them, but it is better to leave a little space between them because it is awkward.
 
    ![](image/three%20normalface.png)
    
@@ -61,7 +61,7 @@
 
    肌の色も変えられるし、何なら顔のパーツの色も変えられます。
 
-   いろいろ遊び放題ってことをわかってくれたらいいと思います。（体は作れないけどね ;) ）
+   いろいろ遊び放題ってことをわかってくれたらいいと思います。（体は作れないけどね :( ）
 
 ## 4. クリーパーの作り方
    クリーパーをいろいろやりたい場合は、一番下にある
