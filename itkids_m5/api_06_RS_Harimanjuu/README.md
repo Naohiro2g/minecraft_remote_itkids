@@ -1,6 +1,7 @@
 
 # Development of original API　～Creepar's face～
 #### [\日本語版はこちらから/](https://github.com/harimanjuu/minecraft_remote_itkids/blob/main/itkids_m5/api_06_RS_Harimanjuu/README_JAPANESE.md)
+#### I am a Japanese.　I am not good at English, so I use a translator. So there may be some oddities. Please understand.
 ## 1. What this API can do
 
    **This API is specialized in making creeper's faces**
@@ -25,7 +26,7 @@
 
 
   Keep it clean. It is surprisingly important.
-  (If you want to reset, run a "demo1.py".)
+  (If you want to reset, run a "[demo1.py](https://github.com/harimanjuu/minecraft_remote_itkids/blob/main/itkids_m5/api_06_RS_Harimanjuu/demo1.py)".)
 
    ![](image/void.png)
 
@@ -42,29 +43,29 @@
 
    ![](image/three%20normalface.png)
    
-   これは繰り返しの動作で成り立っています。リスト関数を使っているので、顔を変えたりなんかも出来ちゃいます。
+   It consists of repetitive actions. Since we are using list functions, we can also change the face and so on.
 
    ![](image/three%20someface.png)
 
-   随分表情豊かになりましたね。(左から、驚いた顔、ニッコリ、ノーマル。)
+   They have become much more expressive. (From left to right: surprised face, smiling face, normal face.)
 
-   遊んでいる最中に気づきました。横ができるなら、縦に並んだクリーパーもできちゃうんじゃない???って。
+   it while playing. An be arranged horizontally, can they also be arranged vertically?
 
    ![](image/tate.png)
 
-   予想通りだね。さっきはxを移動させていたけど、yを移動させてあげればいい、たったそれだけです。
-   <br>てことはクリーパーを奥に並ばせることもできるけど...原理がわかってくれればいいので今回は割愛。
+   As expected.Earlier I moved X. If you want to arrange them vertically, just move Y.
+   <br>In other words, it is possible to line up creepers in the Z direction...The purpose is to understand the principle, so I'll spare you.
 
-   最後に肌も変えてみましょう。
+   Finally, let's change the skin color.
 
    ![](image/石クリーパー.png)
 
-   肌の色も変えられるし、何なら顔のパーツの色も変えられます。
+   The color of facial parts can also be changed.
 
-   いろいろ遊び放題ってことをわかってくれたらいいと思います。（体は作れないけどね :( ）
+   I would be happy if you could see that you can do many things with your ingenuity. (we can't make the body though :( )
 
 ## 4. クリーパーの作り方
-   クリーパーをいろいろやりたい場合は、一番下にある
+   If you wish to modify the creeper, please modify this program at the bottom of [creeper_test.py](https://github.com/harimanjuu/minecraft_remote_itkids/blob/main/itkids_m5/api_06_RS_Harimanjuu/creeper_test3.py).
 
    ```
     faces = ["normal"]
@@ -75,8 +76,6 @@
      mc.postToChat(face)
      x += 10 
    ```
-
-   というプログラムをいじって見てください。
    
    ```faces = [...]```
    
