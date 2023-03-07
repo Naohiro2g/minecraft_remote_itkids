@@ -5,7 +5,7 @@ mc = Minecraft.create(port=param.PORT_MC)
 
 
 def palette(x=0, y=63, z=0):
-    mc.setBlocks(x - 6, y - 1, z - 2, x + 33, y - 1, z + 21, param.SEA_LANTERN_BLOCK)
+    mc.setBlocks(x - 14, y - 1, z - 2, x + 33, y - 1, z + 21, param.SEA_LANTERN_BLOCK)
 
 
 def leg(x=0, y=63, z=0):
@@ -21,15 +21,28 @@ def body(x=0, y=63, z=0):
 
 def head(x=0, y=63, z=0):
     mc.setBlocks(x + 1, y + 32, z + 3, x - 12, y + 45, z + 16, param.WHITE_WOOL)
+    mc.setBlocks(x - 14, y + 33, z + 4, x - 13, y + 44, z + 15, param.WHITE_WOOL)
 
 
-palette()
+def face(x=0, y=63, z=0):
+    mc.setBlocks(x - 14, y + 37, z + 4, x - 13, y + 42, z + 15, param.WHITE_TERRACOTTA)
+    mc.setBlocks(x - 14, y + 33, z + 6, x - 13, y + 36, z + 13, param.WHITE_TERRACOTTA)
+    mc.setBlocks(x - 14, y + 33, z + 8, x - 14, y + 36, z + 11, param.PINK_CONCRETE)
+    mc.setBlocks(x - 14, y + 39, z + 4, x - 14, y + 40, z + 5, param.BLACK_CONCRETE)
+    mc.setBlocks(x - 14, y + 39, z + 14, x - 14, y + 40, z + 15, param.BLACK_CONCRETE)
+    mc.setBlocks(x - 14, y + 39, z + 6, x - 13, y + 40, z + 7, param.WHITE_CONCRETE)
+    mc.setBlocks(x - 14, y + 39, z + 12, x - 13, y + 40, z + 13, param.WHITE_CONCRETE)
 
-leg()
-leg(z=12)
-leg(x=24)
-leg(x=24, z=12)
 
-body()
+def makesheep():
+    palette()
+    leg()
+    leg(z=12)
+    leg(x=24)
+    leg(x=24, z=12)
+    body()
+    head()
+    face()
 
-head()
+
+makesheep()
