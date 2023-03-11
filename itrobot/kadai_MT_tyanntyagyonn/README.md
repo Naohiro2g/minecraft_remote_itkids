@@ -15,7 +15,24 @@
 7. 壁、階段を作る
 8. ピラミッドを作る
 
-[<img src="./images/kadai.png" width="400">](./images/kadai.png)
+# hello
+[<img src="./images/kadai.hello" width="400">](./images/hello.png) 
+# kadai1
+[<img src="./images/kadai1.png" width="400">](./images/kadai1.png) 
+# kadai2
+[<img src="./images/kadai2.png" width="400">](./images/kadai2.png) 
+# kadai3
+[<img src="./images/kadai3.png" width="400">](./images/kadai3.png) 
+# kadai4
+[<img src="./images/kadai4.png" width="400">](./images/kadai4.png) 
+# kadai5
+[<img src="./images/kadai5.png" width="400">](./images/kadai5.png)
+# kadai6
+[<img src="./images/kadai6.png" width="400">](./images/kadai6.png)  
+# kadai7
+[<img src="./images/kadai7.png" width="400">](./images/kadai7.png)  
+# kadai_all
+[<img src="./images/kadai_all.png" width="400">](./images/kadai_all.png) 
 
 ```minecraft
 /tp 0 80 0
