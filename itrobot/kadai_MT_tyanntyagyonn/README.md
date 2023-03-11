@@ -15,6 +15,7 @@
 7. 壁、階段を作る
 8. ピラミッドを作る
 
+# スクショ
 # hello
 [<img src="./images/kadai.hello" width="400">](./images/hello.png) 
 # kadai1
@@ -31,6 +32,8 @@
 [<img src="./images/kadai6.png" width="400">](./images/kadai6.png)  
 # kadai7
 [<img src="./images/kadai7.png" width="400">](./images/kadai7.png)  
+# kadai8
+[<img src="./images/kadai8.png" width="400">](./images/kadai8.png)  
 # kadai_all
 [<img src="./images/kadai_all.png" width="400">](./images/kadai_all.png) 
 
