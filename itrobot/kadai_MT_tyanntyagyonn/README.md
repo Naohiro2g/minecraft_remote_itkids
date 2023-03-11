@@ -17,7 +17,7 @@
 
 # スクショ
 # hello
-[<img src="./images/kadai.hello" width="400">](./images/hello.png) 
+[<img src="./images/hello.png" width="400">](./images/hello.png) 
 # kadai1
 [<img src="./images/kadai1.png" width="400">](./images/kadai1.png) 
 # kadai2
