@@ -5,4 +5,4 @@
 
 動物の種類
 - 羊
-- [<img src="./sheep.png" width="400">](./sheep.png)
+- [<img src="./images/sheep.png" width="400">](./images/sheep.png)
