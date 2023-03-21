@@ -30,7 +30,7 @@ def face(x, y, z):
     mc.setBlocks(x + 1, y + 39, z + 15, x + 2, y + 40, z + 16, param.WHITE_CONCRETE)
 
 
-def makesheep(x=0, y=64, z=0):
+def makesheep(x=0, y=63, z=0):
     mc.postToChat('spawn sheep')
     leg(x, y, z)            # 右前足
     leg(x, y, z + 12)        # 左前足
