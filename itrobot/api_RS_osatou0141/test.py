@@ -1,5 +1,6 @@
 from mcje.minecraft import Minecraft
 import param_MCJE as param
+from clear import reset
 
 mc = Minecraft.create(port=param.PORT_MC)
 
@@ -41,4 +42,5 @@ def makesheep(x=0, y=63, z=0):
     face(x, y, z)
 
 
+reset()
 makesheep()
