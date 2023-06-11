@@ -1,5 +1,6 @@
-# 独自APIの開発　～クリーパーの顔～
-#### [\日本語版はこちらから/](https://github.com/harimanjuu/minecraft_remote_itkids/blob/main/itkids_m5/api_06_RS_Harimanjuu/README.md)
+# Development of proprietary APIs　～CREEPER’S FACE～
+
+#### [\日本語版はこちらから/](https://github.com/harimanjuu/minecraft_remote_itkids/blob/main/itkids_m5/api_06_RS_Harimanjuu/README_JAPANESE.md)
 ## 1. This API can do these
 
    **You can do this**
