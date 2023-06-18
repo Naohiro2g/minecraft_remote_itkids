@@ -29,7 +29,7 @@ if __name__ == "__main__":
 ### creeper_test3.py
 クリーパーの顔を生成することができるプログラムです。
 アレンジして遊びたい方は、こちらのプログラムを複製してそれを改良することをお勧めします。
-詳しいことは<a href= "https://github.com/harimanjuu/minecraft_remote_itkids/blob/main/itkids_m5/api_06_RS_Harimanjuu/README_JAPANESE.md" target="_blank">README_JAPANESE.py</a>をご覧ください。
+詳しいことは<a href= "https://github.com/harimanjuu/minecraft_remote_itkids/blob/main/itkids_m5/api_06_RS_Harimanjuu/README_JAPANESE.md" target="_blank">README_JAPANESE.md</a>をご覧ください。
 
 ### demo_1.py
 axis_flat.pyのXYZ軸を作らないバージョンです。
@@ -56,5 +56,5 @@ BLACK_WOOL_BLOCK ="black_wool"
 GLOWSTONE = "glowstone"
 SEA_LANTERN_BLOCK = "sea_lantern" 
 ```
-「=」の前にはプログラム内で使いたいブロックの名前、(どんな名前でもOKです！)「=」の後ろには、<a href="https://n5v.net/command/block-item-id/" target="_blank">こちらのサイト</a>の「JE」を参考にしてください。
+「=」の前にはプログラム内で使いたいブロックの名前、(どんな名前でもOKです！)「=」の後ろには、<a href="https://n5v.net/command/block-item-id/" target="_blank">こちらのサイト</a>の「JE」を参考にしてブロックの「本当の」名前を書いてください。
 ※このプログラム単体では全く動きません。

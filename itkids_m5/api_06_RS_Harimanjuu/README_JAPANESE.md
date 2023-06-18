@@ -90,6 +90,6 @@
 
    このプログラムはマインクラフトをリモートで制御できる環境がある方でないと動かすことができません。<br>詳しくは、<a href="https://github.com/Naohiro2g/minecraft_remote" target="_blank">マインクラフトのリモート制御</a>を参照してください。
 
-   ファイル内のプログラムの概要は[こちらから](https://github.com/harimanjuu/minecraft_remote_itkids/blob/main/itkids_m5/api_06_RS_Harimanjuu/test.md)
+   ファイル内のプログラムの概要は[こちらから](https://github.com/harimanjuu/minecraft_remote_itkids/blob/main/itkids_m5/api_06_RS_Harimanjuu/Program_overview.md)
 
    
