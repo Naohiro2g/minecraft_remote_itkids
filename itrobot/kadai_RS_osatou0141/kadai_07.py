@@ -40,6 +40,10 @@ def creeper(x, y, z):
     mc.setBlocks(x, y + 4, z + 5, x, y + 5, z + 6, param.BLACK_CONCRETE)
 
 
+def odoriba(kx, ky, kz):
+    mc.setBlocks(kx, ky, kz - 6, kx + 5, ky, kz - 11, param.SMOOTH_STONE)
+
+
 def maekaidan(kx, ky, kz):
     mc.setBlocks(kx, ky, kz, kx + 5, ky, kz - 1, param.SMOOTH_STONE)
     mc.setBlocks(kx, ky + 1, kz - 2, kx + 5, ky + 1, kz - 3, param.SMOOTH_STONE)
