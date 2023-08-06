@@ -1,6 +1,9 @@
 # Development of proprietary APIs　～CREEPER’S FACE～
 
 #### [\日本語版はこちらから/](https://github.com/harimanjuu/minecraft_remote_itkids/blob/main/itkids_m5/api_06_RS_Harimanjuu/README_JAPANESE.md)
+
+#### WARNING
+ I am Japanese. So I'm not good at English. Please understand.
 ## 1. This API can do these
 
    **You can do this**
@@ -94,6 +97,6 @@
    These programs cannot run if you don't have Minecraft remote control environment.  
    <br>For more information, see <a href="https://github.com/Naohiro2g/minecraft_remote" target="_blank">Minecraft remote control</a>.
 
-   Program Overview in the file.  [Click me!]()
+   Program Overview in the file.　<a href="https://github.com/harimanjuu/minecraft_remote_itkids/blob/main/itkids_m5/api_06_RS_Harimanjuu/Program_overview.md" target="_blank">Click me!</a>
 
    
