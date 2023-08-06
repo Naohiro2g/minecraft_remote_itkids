@@ -2,7 +2,6 @@ from mcpi.minecraft import Minecraft
 import param_MCJE1122 as param
 import time
 
-
 mc = Minecraft.create(port=param.PORT_MC)
 mc.postToChat('demo3')
 
