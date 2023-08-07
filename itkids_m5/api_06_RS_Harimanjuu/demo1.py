@@ -38,4 +38,3 @@ mc.postToChat("リセット！")
 
 
 axis_flat.reset_minecraft_world(mc, width=50)
-

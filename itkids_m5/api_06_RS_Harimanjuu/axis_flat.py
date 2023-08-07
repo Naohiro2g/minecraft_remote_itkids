@@ -104,6 +104,7 @@ if __name__ == "__main__":
     # mc.setBlocks(-80, 60, -80,   80, 120, 80,   0)
 
     reset_minecraft_world(mc, width=50)
+
     # draw_XYZ_axis(mc, wait=0.2)
     # clear_XYZ_axis(mc, wait=0)
     draw_XYZ_axis(mc, wait=0.3)

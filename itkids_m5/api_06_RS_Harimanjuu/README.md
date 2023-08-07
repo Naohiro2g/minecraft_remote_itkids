@@ -24,6 +24,7 @@
 
    You should clean your world.(please this picture.)This is important thing.(If you want reset, you execution "demo1.py". Let's head to 0,63,0.)
 
+
    ![](image/void.png)
 
 
@@ -98,5 +99,4 @@
    <br>For more information, see <a href="https://github.com/Naohiro2g/minecraft_remote" target="_blank">Minecraft remote control</a>.
 
    Program Overview in the file.　<a href="https://github.com/harimanjuu/minecraft_remote_itkids/blob/main/itkids_m5/api_06_RS_Harimanjuu/Program_overview.md" target="_blank">Click me!</a>
-
    
