@@ -1,4 +1,4 @@
-from mcpi.minecraft import Minecraft
+from mcje.minecraft import Minecraft
 import param_MCJE1122 as param
 import time
 
@@ -10,7 +10,7 @@ block_down = 1
 block_left = 0
 block_right = 0
 material = param.GOLD_BLOCK
-min = 0.5
+min = 1
 
 t_end = time.time() + 60*min
 while time.time() < t_end:
