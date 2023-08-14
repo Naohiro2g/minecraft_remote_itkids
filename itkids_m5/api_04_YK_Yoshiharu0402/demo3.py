@@ -6,9 +6,9 @@ mc = Minecraft.create(port=param.PORT_MC)
 mc.postToChat('demo3')
 
 block_up = 0
-block_down = 0
-block_left = 1
-block_right = 1
+block_down = 1
+block_left = 0
+block_right = 0
 material = param.GOLD_BLOCK
 min = 1
 
