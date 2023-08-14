@@ -9,7 +9,7 @@ block_up = 0
 block_down = 1
 block_left = 0
 block_right = 0
-material = param.GOLD_BLOCK
+material = param.ICE
 min = 1
 
 t_end = time.time() + 60*min

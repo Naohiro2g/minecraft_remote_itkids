@@ -43,6 +43,8 @@ block_right = 0
 
 名の通り、自分の歩いた場所のブロックを変えるプログラムです。海の上も歩くことが可能です。
 
+[<img src="./images/ezgif-4-e5d04a153f.gif">](./images/ezgif-4-e5d04a153f.gif)
+
 - 安全な通路を作るプログラム
 
 block_up = 2
@@ -51,7 +53,9 @@ block_left = 1
 block_right = 1
 material = param.COBBLESTONE
 
-自分の周りを丸石で囲むプログラムです。これならネザーでもガストにおびえず安全に移動できますね。
+自分の周りを丸石で囲むプログラムです。これなら夜もモンスターににおびえず安全に移動できますね。
+
+[<img src="./images/ezgif-4-d1a8f823e5.gif">](./images/ezgif-4-d1a8f823e5.gif)
 
 - 爆速ボート
 
@@ -62,6 +66,8 @@ block_right = 0
 material = param.ICE
 
 道を作るプログラムの素材を氷ブロックにしたものです。このプログラムはボートに乗っていても効果があるので、ボートに乗ってこのプログラムを動かすだけで高速に移動ができるボートが作れます。しかし、スペックの問題で処理速度が追い付かずに止まってしまうかもしれないです。また、理論上はトロッコとレールでもできるのですが、僕のプログラミングの技能がなくて作れなかったです。
+
+[<img src="./images/ezgif-4-4bff1e4e4c.gif">](./images/ezgif-4-4bff1e4e4c.gif)
 ## [param_MCJE1122.py](./param_MCJE1122.py)
 ここに使いたいブロックを書きます。ブロック一覧は[block.py](./block.py)で探します。
 
