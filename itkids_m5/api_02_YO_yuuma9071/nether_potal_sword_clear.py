@@ -17,7 +17,7 @@ for _n in range(31):
         z = 6
         for _i in range(13):
             mc.setBlock(x, y, z,  param.GLOWSTONE)
-            sleep(0.005)
+            sleep(0.001)
             z += 1
         x += 1
     y += 1
@@ -31,7 +31,7 @@ for _n in range(31):
         z = 6
         for _i in range(13):
             mc.setBlock(x, y, z,  param.AIR)
-            sleep(0.005)
+            sleep(0.001)
             z += 1
         x += 1
     y -= 1
