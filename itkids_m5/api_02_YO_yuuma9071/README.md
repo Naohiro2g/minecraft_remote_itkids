@@ -101,6 +101,14 @@
 
    [<img src="./images/nps_perfect.png" width="400">](./images/nps_perfect.png)
 
+
+
+## ネザーゲートソードの消し方
+
+  nether_potal_sword_clearでネザーゲートソードの消去が可能です。
+
+  ただ消すだけでは面白くないので、一度グロウストーンで埋めてから、上から徐々に消えるようにしました。
+
 ## Ⅳ.参考文献
 
 https://www.youtube.com/@Seicraft
