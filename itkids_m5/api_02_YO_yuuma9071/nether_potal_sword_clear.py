@@ -26,7 +26,7 @@ sleep(1)
 
 y = param.Y_NETHER + 11
 for _n in range(31):
-    x = 1
+    x = 0
     for _n in range(9):
         z = 7
         for _i in range(13):
