@@ -109,6 +109,8 @@
 
   ただ消すだけでは面白くないので、一度グロウストーンで埋めてから、上から徐々に消えるようにしました。
 
+  [<img src="./images/clear.png" width="400">](./images/clear.png)  [<img src="./images/clear.png" width="400">](./images/clear.png)
+
 ## Ⅳ.参考文献
 
 https://www.youtube.com/@Seicraft
