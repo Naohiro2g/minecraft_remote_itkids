@@ -15,8 +15,8 @@ sleep(1)
 
 mc.postToChat('1')
 
-y = param.Y_SEA
-mc.setBlocks(-4, y, 6, 14, y + 30, 23, param.air)
+y = param.Y_SEA + 1
+mc.setBlocks(-4, y, 2, 14, y + 30, 22, param.AIR)
 sleep(1)
 
 mc.postToChat('ネザーゲートソードを作成します。')
