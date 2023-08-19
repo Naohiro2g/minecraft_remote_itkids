@@ -50,3 +50,19 @@
 ### 鍔
 
   次に鍔です。ここはごちゃっとしていて、規則性がないので、一個一個 setBlock で置いています。
+
+  [<img src="./images/tuba.png" width="400">](./images/tuba.png)
+
+  **ここは規則性があるからちょっと楽w**
+
+  [<img src="./images/tuba_perfect.png" width="400">](./images/tuba_perfect.png)
+
+  **一個一個置くプログラム、大変だった**
+
+### 柄
+
+　最後に柄です。剣の持ち手ですね。
+
+ ちなみにちょくちょく閃緑岩の塀が先取りして置かれているのは、setBlockで置くと、隣接したブロックと繋がってくれないからです。
+
+ 
