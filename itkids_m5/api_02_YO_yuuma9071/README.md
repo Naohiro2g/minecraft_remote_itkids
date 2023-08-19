@@ -47,4 +47,8 @@
 
   [<img src="./images/sword.png" width="400">](./images/sword.png)
 
+### 鍔
 
+  次に鍔の部分です。ここはごちゃっとしていて、規則性がないので、
+
+  一個一個 setBlock で置いています。
