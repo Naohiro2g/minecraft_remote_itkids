@@ -25,7 +25,7 @@
 
 [<img src="./images/dodai1.png" width="400">](./images/dodai1.png)  [<img src="./images/dodai_1.png" width="400">](./images/dodai_1.png)
 
-
-
-
+  二段目が見やすいように一段目を黒曜石に置き換えています。
+  
+[<img src="./images/dodai2.png" width="400">](./images/dodai2.png)  [<img src="./images/dodai_2.png" width="400">](./images/dodai_2.png)
 
