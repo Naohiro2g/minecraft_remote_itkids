@@ -31,7 +31,7 @@
 
 (後日、watching_nether_potal_swordというAPIを作成しました)。
 
-**ちなみにネザーゲートソードが生成される前に生成範囲+5ブロックの範囲内のブロックは空気ブロックに置き換えられます。ご注意を。**
+**※ちなみにネザーゲートソードが生成される前に生成範囲+5ブロックの範囲内のブロックは空気ブロックに置き換えられます。ご注意を。**
   
 ### 土台
   
@@ -39,7 +39,7 @@
 
 [<img src="./images/dodai1.png" width="400">](./images/dodai1.png)  [<img src="./images/dodai_1.png" width="400">](./images/dodai_1.png)
 
-  **二段目が見やすいように一段目を黒曜石に置き換えています。**
+  **※二段目が見やすいように一段目を黒曜石に置き換えています。**
   
 [<img src="./images/dodai2.png" width="400">](./images/dodai2.png)  [<img src="./images/dodai_2.png" width="400">](./images/dodai_2.png)
 
@@ -51,7 +51,7 @@
 
   [<img src="./images/np_d.png" width="400">](./images/np_d.png)
 
-  **ネザーゲートとして成立しなくなるため、一つ上にある邪魔なクォーツブロックを消しています。**
+  **※ネザーゲートとして成立しなくなるため、一つ上にある邪魔なクォーツブロックを消しています。**
 
   [<img src="./images/np_perfect.png" width="400">](./images/np_perfect.png)
 
@@ -89,11 +89,17 @@
 
  **これで隣の磨かれた閃緑岩と繋がってくれる**
 
+ ちなみにこれと同じタイミングでこんなものも置かれています。
+
+  [<img src="./images/tabun_shokennjya_kizukan.png" width="400">](./images/tabun_shokennjya_kizukan.png)
+
  ### 開門！！
 
    忘れていました！本当の最後にネザーゲートを開門させます。開門は単純で、黒曜石の上にただ炎を置いただけです。
 
    これでカッコいいネザーゲート、ネザーゲートソードの完成です。
+
+   [<img src="./images/nps_perfect.png" width="400">](./images/nps_perfect.png)
 
 ## Ⅳ.参考文献
 
