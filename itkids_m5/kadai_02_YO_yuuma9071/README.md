@@ -32,9 +32,7 @@
 
 7. 壁、階段を作る
 
-[<img src="./images/kadai7_wall.png" width="200">](./images/kadai7_wal.png)
-
-[<img src="./images/kadai7_stair.png" width="200">](./images/kadai7_stair.png)
+[<img src="./images/kadai7_wall.png" width="200">](./images/kadai7_wal.png)  [<img src="./images/kadai7_stair.png" width="200">](./images/kadai7_stair.png)
 
 
 8. ピラミッドを作る
