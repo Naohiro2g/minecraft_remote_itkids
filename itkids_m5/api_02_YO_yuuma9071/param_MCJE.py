@@ -44,7 +44,7 @@ FIRE = "fire"
 # some good blocks for grid like patterns you can count blocks easily
 GLASS = "glass"
 TNT = "tnt"
-DIAMOND_BLOCK = "diamnd_block"
+DIAMOND_BLOCK = "diamond_block"
 FURNACE_INACTIVE = "furnace"
 FURNACE_ACTIVE = "lit_furnace"
 GLASS_PANE = "glass_pane"
