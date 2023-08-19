@@ -11,11 +11,25 @@ mc.postToChat('ネザーゲートを破壊します。')
 sleep(2)
 
 y = param.Y_NETHER + 11
-for _n in range(30):
+for _n in range(31):
     x = 1
     for _n in range(9):
         z = 7
-        for _i in range(11):
+        for _i in range(13):
+            mc.setBlock(x, y, z,  param.OBSIDIAN)
+            sleep(0.005)
+            z += 1
+        x += 1
+    y -= 1
+
+sleep(1)
+
+y = param.Y_NETHER + 11
+for _n in range(31):
+    x = 1
+    for _n in range(9):
+        z = 7
+        for _i in range(13):
             mc.setBlock(x, y, z,  param.AIR)
             sleep(0.005)
             z += 1
