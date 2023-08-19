@@ -14,10 +14,10 @@ mc.postToChat('2')
 sleep(1)
 
 mc.postToChat('1')
-sleep(1)
 
 y = param.Y_SEA
 mc.setBlocks(-4, y, 6, 14, y + 30, 23, param.air)
+sleep(1)
 
 mc.postToChat('ネザーゲートソードを作成します。')
 sleep(1)
@@ -25,7 +25,7 @@ sleep(1)
 #土台を作る。
 
 mc.postToChat('土台')
-sleep(0.25)
+sleep(0.5)
 
 mc.postToChat('一段目')
 x = 1
@@ -123,7 +123,7 @@ sleep(0.5)
 
 #刃を作る。
 
-mc.postToChat('刃')
+mc.postToChat('刃の装飾')
 x, z = 4, 10
 y = param.Y_SEA + 3
 for _i in range(17):
@@ -156,6 +156,8 @@ for _i in range(13):
     sleep(0.25)
     z += 1
 
+sleep(0.25)
+
 x, z = 5, 11
 y = param.Y_NETHER + 1
 for _i in range(3):
@@ -166,6 +168,8 @@ for _i in range(3):
     mc.setBlock(x, y, z + 3, param.POLISHED_DIORITE)
     sleep(0.25)
     y += 1
+
+sleep(0.25)
 
 x, z = 4, 10
 y = param.Y_NETHER
@@ -242,12 +246,16 @@ for _i in range(2):
     sleep(0.5)
     y += 1
 
+sleep(0.25)
+
 x, z = 4, 11
 y = param.Y_NETHER
 mc.setBlock(x, y + 3, z, param.DIORITE_SLAB)
 mc.setBlock(x + 2, y + 3, z, param.DIORITE_SLAB)
 mc.setBlock(x, y + 3, z + 2, param.DIORITE_SLAB)
 mc.setBlock(x + 2, y + 3, z + 2, param.DIORITE_SLAB)
+
+sleep(0.25)
 
 x, z = 4, 10
 y = param.Y_NETHER
@@ -260,21 +268,24 @@ mc.setBlock(x, y + 2, z + 4, param.DIORITE_SLAB)
 mc.setBlock(x + 2, y + 2, z, param.DIORITE_SLAB)
 mc.setBlock(x + 2, y + 2, z + 4, param.DIORITE_SLAB)
 
+sleep(0.25)
+
 x, z = 4, 7
 y = param.Y_NETHER
 mc.setBlocks(x, y + 2, z, x, y + 2, z + 2, param.DIORITE_WALL)
 mc.setBlocks(x, y + 2, z + 8, x, y + 2, z + 10, param.DIORITE_WALL)
+
+sleep(0.25)
 
 x, z = 6, 7
 y = param.Y_NETHER
 mc.setBlocks(x, y + 2, z, x, y + 2, z + 2, param.DIORITE_WALL)
 mc.setBlocks(x, y + 2, z + 8, x, y + 2, z + 10, param.DIORITE_WALL)
 
-sleep(0.5)
-
 y = param.Y_NETHER
 mc.setBlock(4, y + 3, 12, param.POLISHED_DIORITE)
 mc.setBlock(6, y + 3, 12, param.POLISHED_DIORITE)
+sleep(0.5)
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
