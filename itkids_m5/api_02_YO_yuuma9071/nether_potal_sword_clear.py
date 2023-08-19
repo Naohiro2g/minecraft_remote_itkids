@@ -14,7 +14,7 @@ y = param.Y_SEA + 1
 for _n in range(31):
     x = 1
     for _n in range(9):
-        z = 7
+        z = 6
         for _i in range(13):
             mc.setBlock(x, y, z,  param.GLOWSTONE)
             sleep(0.005)
@@ -26,9 +26,9 @@ sleep(1)
 
 y = param.Y_NETHER + 11
 for _n in range(31):
-    x = 0
+    x = 1
     for _n in range(9):
-        z = 7
+        z = 6
         for _i in range(13):
             mc.setBlock(x, y, z,  param.AIR)
             sleep(0.005)
