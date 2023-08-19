@@ -50,7 +50,7 @@ make_blocks(0, 1, 0, 0, param.好きなブロック, 1)
 
 [<img src="./images/ezgif-4-e5d04a153f.gif">](./images/ezgif-4-e5d04a153f.gif)
 
-- 安全な通路を作るプログラム [SafetyRoad.py](./safetyRoad.py)
+- 安全な通路を作るプログラム [SafetyRoad.py](./SafetyRoad.py)
 
 make_blocks(2, 1, 1, 1, param.COBBLESTONE, 1)
 
