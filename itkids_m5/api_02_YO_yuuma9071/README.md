@@ -21,7 +21,7 @@
   
     初めに土台が生成されます。土台は二段あります。土台は長方形を作ってから、はじが消えるようにして生成されます。
 
-[<img src="./images/dodai1.png" width="400">](./images/dodai1.png) [<img src="./images/dodai_1.png" width="400">](./images/dodai_1.png)
+[<img src="./images/dodai1.png" width="400">](./images/dodai1.png)  [<img src="./images/dodai_1.png" width="400">](./images/dodai_1.png)
 
 
 
