@@ -5,24 +5,38 @@
 
 [<img src="./images/kadai1.png" width="400">](./images/kadai1.png)
 
-3. 柱を建てる
+2. 柱を建てる
 （x=5, z=10に、y=63から高さ10で。）
 
-5. 柱を並べて建てる
+[<img src="./images/kadai2.png" width="400">](./images/kadai2.png)
+
+3. 柱を並べて建てる
 （x=5, z=10から間隔2で7本。y=63から高さ10で。）
 
-7. 並んだ柱を消す
+[<img src="./images/kadai3.png" width="400">](./images/kadai3.png)
+
+4. 並んだ柱を消す
 （空気を置くと消える。）
 
-9. 柱をz方向に寝かせる
+[<img src="./images/kadai4.png" width="400">](./images/kadai4.png)
+
+5. 柱をz方向に寝かせる
 （地上y=63に、x=0, z=5から10ブロックで。）
 
-11. 床を作る
+[<img src="./images/kadai5.png" width="400">](./images/kadai5.png)
+
+6. 床を作る
 （柱をx方向に8本、地上に寝かせる。x=10,z=5から。）
 
-13. 壁、階段を作る
+[<img src="./images/kadai6.png" width="400">](./images/kadai6.png)
 
-15. ピラミッドを作る
+7. 壁、階段を作る
+
+[<img src="./images/kadai7.png" width="400">](./images/kadai7.png)
+
+8. ピラミッドを作る
+
+[<img src="./images/kadai8.png" width="400">](./images/kadai8.png)
 
 
 [<img src="./images/kadai.png" width="400">](./images/kadai.png)
