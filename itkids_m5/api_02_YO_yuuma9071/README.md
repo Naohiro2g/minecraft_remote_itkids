@@ -29,3 +29,11 @@
   
 [<img src="./images/dodai2.png" width="400">](./images/dodai2.png)  [<img src="./images/dodai_2.png" width="400">](./images/dodai_2.png)
 
+  **ネザーゲート**
+
+  次にネザーゲート部分を生成します。言い忘れていましたが、生成する部分が変わると、その都度生成している部分の名称がチャット欄に出てきます。
+
+
+  ネザーゲートが成立しなくなるため、一つ上にあるクォーツブロックを消しています。
+
+  [<img src="./images/np_d.png" width="400">](./images/np_d.png)
