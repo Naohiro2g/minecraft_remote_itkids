@@ -34,6 +34,7 @@
 
 [<img src="./images/kadai7_wall.png" width="400">](./images/kadai7_wal.png)
 
+
 [<img src="./images/kadai7_stair.png" width="400">](./images/kadai7_stair.png)
 
 
