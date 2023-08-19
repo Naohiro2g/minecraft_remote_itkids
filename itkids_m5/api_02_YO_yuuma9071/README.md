@@ -17,7 +17,7 @@
 
 (後日、watching_nether_potal_swordというAPIを作成しました)。
 
-ちなみにネザーゲートソードが生成される前に生成範囲+5ブロックの範囲内のブロックは空気ブロックに置き換えられます。ご注意を。
+**ちなみにネザーゲートソードが生成される前に生成範囲+5ブロックの範囲内のブロックは空気ブロックに置き換えられます。ご注意を。**
   
 ### 土台
   
@@ -25,7 +25,7 @@
 
 [<img src="./images/dodai1.png" width="400">](./images/dodai1.png)  [<img src="./images/dodai_1.png" width="400">](./images/dodai_1.png)
 
-  二段目が見やすいように一段目を黒曜石に置き換えています。
+  **二段目が見やすいように一段目を黒曜石に置き換えています。**
   
 [<img src="./images/dodai2.png" width="400">](./images/dodai2.png)  [<img src="./images/dodai_2.png" width="400">](./images/dodai_2.png)
 
@@ -35,10 +35,9 @@
   
   言い忘れていましたが、生成する部分が変わると、その都度生成している部分の名称がチャット欄に出てきます。
 
-
   [<img src="./images/np_d.png" width="400">](./images/np_d.png)
 
-  ネザーゲートとして成立しなくなるため、一つ上にある邪魔なクォーツブロックを消しています。
+  **ネザーゲートとして成立しなくなるため、一つ上にある邪魔なクォーツブロックを消しています。**
 
   [<img src="./images/np_perfect.png" width="400">](./images/np_perfect.png)
 
@@ -48,4 +47,4 @@
 
   [<img src="./images/sword.png" width="400">](./images/sword.png)
 
-  
+
