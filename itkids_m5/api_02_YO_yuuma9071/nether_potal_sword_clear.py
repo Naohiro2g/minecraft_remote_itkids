@@ -10,7 +10,7 @@ sleep(1)
 mc.postToChat('ネザーゲートを破壊します。')
 sleep(2)
 
-y = param.Y_NETHER + 11
+y = param.Y_SEA + 1
 for _n in range(31):
     x = 1
     for _n in range(9):
@@ -20,7 +20,7 @@ for _n in range(31):
             sleep(0.005)
             z += 1
         x += 1
-    y -= 1
+    y += 1
 
 sleep(1)
 
