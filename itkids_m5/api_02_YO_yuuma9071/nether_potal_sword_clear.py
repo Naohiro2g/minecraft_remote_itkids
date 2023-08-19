@@ -16,7 +16,7 @@ for _n in range(31):
     for _n in range(9):
         z = 7
         for _i in range(13):
-            mc.setBlock(x, y, z,  param.OBSIDIAN)
+            mc.setBlock(x, y, z,  param.GLOWSTONE)
             sleep(0.005)
             z += 1
         x += 1
