@@ -35,4 +35,3 @@ def make_blocks(block_up, block_down, block_left, block_right, material, min):
             
 if __name__ == "__main__":
     make_blocks(0,0,0,0,param.GOLD_BLOCK,0)
-            

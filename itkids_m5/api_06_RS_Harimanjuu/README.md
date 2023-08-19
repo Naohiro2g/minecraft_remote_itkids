@@ -1,98 +1,102 @@
+# Development of proprietary APIs　～CREEPER’S FACE～
 
-# Development of original API　～Creepar's face～
 #### [\日本語版はこちらから/](https://github.com/harimanjuu/minecraft_remote_itkids/blob/main/itkids_m5/api_06_RS_Harimanjuu/README_JAPANESE.md)
-#### I am a Japanese.　I am not good at English, so I use a translator. So there may be some oddities. Please understand.
-## 1. What this API can do
 
-   **This API is specialized in making creeper's faces**
-   - Specify the location of the creeper
-   - Specifying the creeper's expression
-   - Specify the number of creepers
-   - Designation of creeper skin and face color
-## 2. What this API can not do
+#### WARNING
+ I am Japanese. So I'm not good at English. Please understand.
+## 1. This API can do these
 
-   **There is not much that can be done yet. These are just some of the items that need to be improved in the future**
-   * Specify creeper orientation
-   * Building a creeper's body
-   * Make something other than a creeper
-   * Move installed creepers
+   **You can do this**
+   - creeper's position setting
+   - creeper's face setting
+   - specify the number of creepers
+   - creeper's skin and face color setting
+## 2. You can not do this
+
+   **This API can do a little things. These are the bad parts**
+   * Turn creeper's face around
+   * make creeper's body
+   * make non-creepers
+   * moving creeper
   
-## 3. Let's try!!
+## 3. Let's make creeper's!!!! :D
    
-   In the meantime, let's try different things, referring to what can and cannot be done.
-   If it's just a face, it's more flexible than you might think.
-   So there are probably quite a few things you can do.  
-   So let's go!
 
+   You should clean your world.(please this picture.)This is important thing.(If you want reset, you execution "demo1.py". Let's head to 0,63,0.)
 
-  Keep it clean. It is surprisingly important.
-  (If you want to reset, run a "[demo1.py](https://github.com/harimanjuu/minecraft_remote_itkids/blob/main/itkids_m5/api_06_RS_Harimanjuu/demo1.py)".)
 
    ![](image/void.png)
 
 
 
-   First, summon one normal creeper.
-
+   Firstly, let's make a "normal creeper". Run the Sample program as is.
 
    ![](image/one.png)
 
-   When placed on the ground, it looks like the item "creeper's head" like this.
+   It looks like a "creeper's face"!
 
-   Let's put this side by side. You can connect them, but it is better to leave a little space between them because it is awkward.
+   Let's put three of these side by side.
+   You should make a gap.
 
    ![](image/three%20normalface.png)
    
-   It consists of repetitive actions. Since we are using list functions, we can also change the face and so on.
+   This program works by looping. List function is used by this program.
+
 
    ![](image/three%20someface.png)
 
-   They have become much more expressive. (From left to right: surprised face, smiling face, normal face.)
+   that's nice!!! ;) (WOW!, SMILE and NORMAL)
 
-   it while playing. An be arranged horizontally, can they also be arranged vertically?
+   I have finally know something.We could put the creeper's face side by side. Maybe, we can also be arranged vertically.
+
 
    ![](image/tate.png)
 
-   As expected.Earlier I moved X. If you want to arrange them vertically, just move Y.
-   <br>In other words, it is possible to line up creepers in the Z direction...The purpose is to understand the principle, so I'll spare you.
+   Succesed!!! XD  When I want to put side by side , I changed X-coordinate.So, if we want to be arranged vertically, we change Y-coordinate.It's not difficult.
+   <br>In other words, it can also create a line of creepers. But I don't make. Let's try it!! ;)
 
-   Finally, let's change the skin color.
+   Finally,I will change Creeper's skin!
 
    ![](image/石クリーパー.png)
 
-   The color of facial parts can also be changed.
+   We can change creeper's skin and face parts color .
 
-   I would be happy if you could see that you can do many things with your ingenuity. (we can't make the body though :( )
+   I hope you know "you can do many things".（But you cannot make creeper's body! :( ）
 
-## 4. クリーパーの作り方
-   If you wish to modify the creeper, please modify this program at the bottom of [creeper_test.py](https://github.com/harimanjuu/minecraft_remote_itkids/blob/main/itkids_m5/api_06_RS_Harimanjuu/creeper_test3.py).
+## 4. How to make cpeepers
+   If you want to play creeper, you use this proglam.
 
    ```
     faces = ["normal"]
     x = 0
 
     for face in faces:
-     set_creeper(mc, x=x, block_id="green_wool", face=face)
+     set_creeper(mc, x=x, y=y, block_id="green_wool", face=face)
      mc.postToChat(face)
      x += 10 
    ```
    
+
+   
    ```faces = [...]```
+   You write some facial expressions in "[...]".
+   <br>I wrote many facial expressions. You must write facial expressions.They are made in the order they are written.
+
+
+   When you change X-coordinate, the creepers is put that place.
+
+   p.s. 
+   You can also set Y-coordinate and Z-coordinate. If you want to set that, let's add "y=y," or "z=z," behind the "x=x".
+
+   ```block_id="..."```　You can set type of block this place.  You can also see many kind of block from "param_MCJE.py", You chese the block and write in ```"..."```.。
+
+   ```x += 10```  You can set creepers spacing. This space includes creeper's width.（Creeper's face is 8 blocks square.）
+
    
-   のところはかっこの中に生成したい順番で表情を書いてください。
-   <br>上の方に「normal」「smile」などいろいろ載ってます。その言葉通りに入力しないと動作しません。
+   ## Finally
 
-   x =...が書いてあるところにお好みの座標を入れてあげると、その通りに配置できます。（y,zは省いていますが、追加しても構いません。その場合は、「set_creeper」のカッコ内の「x=x,」の後に「y=y,」と書き足してください。(zも同様です。)）
+   These programs cannot run if you don't have Minecraft remote control environment.  
+   <br>For more information, see <a href="https://github.com/Naohiro2g/minecraft_remote" target="_blank">Minecraft remote control</a>.
 
-   ```block_id="..."```　のところでblockの種類を変えることができます。param_MCJE.pyというプログラムから、どんなブロックがあるのか見れるので、そこから選んで```"..."``` の中に書き込んでください。
-
-   ```x += 10``` では、複数クリーパーを作るときにどのくらい間隔をあけるか命令できます。この距離には、クリーパーの体の分も含まれているので、そこは注意しましょう。（クリーパーは8ブロック四方でできています。）
-
-   
-   ## 最後に
-
-   このプログラムはマインクラフトをリモートで制御できる環境がある方でないと動かすことができません。<br>詳しくは、<a href="https://github.com/Naohiro2g/minecraft_remote" target="_blank">マインクラフトのリモート制御</a>を参照してください。
-
-   ファイル内のプログラムの概要は[こちらから](https://github.com/harimanjuu/minecraft_remote_itkids/blob/main/itkids_m5/api_06_RS_Harimanjuu/test.md)
-
+   Program Overview in the file.　<a href="https://github.com/harimanjuu/minecraft_remote_itkids/blob/main/itkids_m5/api_06_RS_Harimanjuu/Program_overview.md" target="_blank">Click me!</a>
    

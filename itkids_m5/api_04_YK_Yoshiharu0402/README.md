@@ -18,6 +18,7 @@ from MyApi import make_blocks で使用可能になります。
 
 make_blocks(block_up, block_down, block_left, block_right, material, min)
 
+
 ブロックの設置は自分の下半身が基準になります。0の時はブロックが置かれません。
 - **block_up** 
 
@@ -43,6 +44,7 @@ make_blocks(block_up, block_down, block_left, block_right, material, min)
 - 道を作るプログラム [Road.py](./Road.py)
 
 make_blocks(0, 1, 0, 0, param.好きなブロック, 1)
+
 
 名の通り、自分の歩いた場所のブロックを変えるプログラムです。海の上も歩くことが可能です。
 

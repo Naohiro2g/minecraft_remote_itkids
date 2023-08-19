@@ -37,5 +37,4 @@ mc.postToChat("リセット！")
 # mc.setBlocks(-80, 60, -80,   80, 120, 80,   0)
 
 
-axis_flat.reset_minecraft_world(mc, width=20)
-
+axis_flat.reset_minecraft_world(mc, width=50)
