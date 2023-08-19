@@ -14,6 +14,7 @@ AXIS_BOTTOM = 63      # y: 63 .. 96 .. 127
 Y_TOP = 255           # the top where blocks can be set
 Y_CLOUD_BOTTOM = 128  # the bottom of clouds
 Y_SEA = 62            # the sea level
+Y_NETHER = 82
 Y_BOTTOM = 0          # the bottom where blocks can be set
 Y_BOTTOM_STEVE = -64  # the bottom where Steve can go down
 
