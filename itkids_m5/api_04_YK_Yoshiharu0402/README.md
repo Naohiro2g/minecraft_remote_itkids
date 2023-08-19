@@ -2,7 +2,7 @@
 ITkidsプロジェクトの卒業制作として作成されたリポジトリです。
 
 ## [MyApi.py](./MyApi.py)
-自分の座標によってブロックが置き続けられます。時間指定も可能です。
+自分の座標によってブロックが置き続けられます。時間指定も可能です。※まだ多少のバグが残っています。
 
 #### 動作環境
 [Minecraft Java Edition 1.12.2](./https://www.minecraft.net/ja-jp)
@@ -12,6 +12,12 @@ ITkidsプロジェクトの卒業制作として作成されたリポジトリ�
 [RemoteControllerMod-1.12.2 v0.02](./https://www.curseforge.com/minecraft/mc-mods/remote-controller/files/3242375)
 
 #### 使い方
+使うときは、関数 make_blocks を使います。
+
+from MyApi import make_blocks で使用可能になります。
+
+make_blocks(block_up, block_down, block_left, block_right, material, min)
+
 ブロックの設置は自分の下半身が基準になります。0の時はブロックが置かれません。
 - **block_up** 
 
@@ -34,36 +40,25 @@ ITkidsプロジェクトの卒業制作として作成されたリポジトリ�
 
 #### サンプルプログラム
 
-- 道を作るプログラム
+- 道を作るプログラム [Road.py](./Road.py)
 
-block_up = 0
-block_down = 1
-block_left = 0
-block_right = 0
+make_blocks(0, 1, 0, 0, param.好きなブロック, 1)
 
 名の通り、自分の歩いた場所のブロックを変えるプログラムです。海の上も歩くことが可能です。
 
 [<img src="./images/ezgif-4-e5d04a153f.gif">](./images/ezgif-4-e5d04a153f.gif)
 
-- 安全な通路を作るプログラム
+- 安全な通路を作るプログラム [SafetyRoad.py](./safetyRoad.py)
 
-block_up = 2
-block_down = 1
-block_left = 1
-block_right = 1
-material = param.COBBLESTONE
+make_blocks(2, 1, 1, 1, param.COBBLESTONE, 1)
 
 自分の周りを丸石で囲むプログラムです。これなら夜もモンスターににおびえず安全に移動できますね。
 
 [<img src="./images/ezgif-4-d1a8f823e5.gif">](./images/ezgif-4-d1a8f823e5.gif)
 
-- 爆速ボート
+- 爆速ボート [IceBoat.py](./IceBoat.py)
 
-block_up = 0
-block_down = 1
-block_left = 0
-block_right = 0
-material = param.ICE
+make_blocks(0, 1, 0, 0, param.ICE, 1)
 
 道を作るプログラムの素材を氷ブロックにしたものです。このプログラムはボートに乗っていても効果があるので、ボートに乗ってこのプログラムを動かすだけで高速に移動ができるボートが作れます。しかし、スペックの問題で処理速度が追い付かずに止まってしまうかもしれないです。また、理論上はトロッコとレールでもできるのですが、僕のプログラミングの技能がなくて作れなかったです。
 
