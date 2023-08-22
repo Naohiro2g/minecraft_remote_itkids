@@ -32,10 +32,10 @@ def face(x, y, z):
 
 def makesheep(x=0, y=63, z=0):
     mc.postToChat('spawn sheep')
-    leg(x, y, z)            # 右前足
+    leg(x, y, z)             # 右前足
     leg(x, y, z + 12)        # 左前足
     leg(x + 24, y, z)        # 右後足
-    leg(x + 24, y, z + 12)  # 左後足
+    leg(x + 24, y, z + 12)   # 左後足
     body(x, y, z)
     head(x, y, z)
     face(x, y, z)
