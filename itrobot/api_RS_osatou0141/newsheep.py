@@ -20,6 +20,15 @@ def body(x, y, z):
     mc.setBlocks(x + 33, y + 22, z - 2, x + 33, y + 39, z + 21, param.WHITE_WOOL)
 
 
+def cbody(x, y, z):
+    mc.setBlocks(x - 6, y + 22, z - 2, x + 33, y + 22, z + 21, param.AIR)
+    mc.setBlocks(x - 6, y + 39, z - 2, x + 33, y + 39, z + 21, param.AIR)
+    mc.setBlocks(x - 6, y + 22, z - 2, x + 33, y + 39, z - 2, param.AIR)
+    mc.setBlocks(x - 6, y + 22, z + 21, x + 33, y + 39, z + 21, param.AIR)
+    mc.setBlocks(x - 6, y + 22, z - 2, x - 6, y + 39, z + 21, param.AIR)
+    mc.setBlocks(x + 33, y + 22, z - 2, x + 33, y + 39, z + 21, param.AIR)
+
+
 def head(x, y, z):
     mc.setBlocks(x + 1, y + 32, z + 3, x - 12, y + 45, z + 16, param.WHITE_WOOL)
     mc.setBlocks(x - 14, y + 33, z + 4, x - 13, y + 44, z + 15, param.WHITE_WOOL)
@@ -46,4 +55,4 @@ def makesheep(x=0, y=63, z=0):
     face(x, y, z)
 
 
-makesheep()
+face(x=0, y=63, z=0)
