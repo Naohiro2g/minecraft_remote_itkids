@@ -1,5 +1,6 @@
 from mcje.minecraft import Minecraft
 import param_MCJE as param
+import random as rd
 
 from time import sleep
 
@@ -9,14 +10,17 @@ mc.postToChat("kadai6")
 x = 10
 y = 63
 z = 5
-
-A = param.GLASS
-B = param.SEA_LANTERN_BLOCK
-C = param.GLOWSTONE
+T = 0
 
 for n in range(8):
     for i in range(10):
-        mc.setBlock(x, y, z, param.SEA_LANTERN_BLOCK)
+        T = rd.randint(1, 3)
+        if T == 1:
+            mc.setBlock(x, y, z, param.SEA_LANTERN_BLOCK)
+        elif T == 2:
+            mc.setBlock(x, y, z, param.GLOWSTONE)
+        else:
+            mc.setBlock(x, y, z, param.MAGMA_BLOCK)
         sleep(0.1)
         z += 1
     sleep(0.1)
