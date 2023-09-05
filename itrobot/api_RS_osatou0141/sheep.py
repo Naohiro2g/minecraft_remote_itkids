@@ -54,6 +54,7 @@ def makesheep(x=0, y=63, z=0):
     body(x, y, z)
     head(x, y, z)
     face(x, y, z)
+    mc.postToChat('finish')
 
 
 makesheep()
