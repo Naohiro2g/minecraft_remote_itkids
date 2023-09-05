@@ -21,11 +21,15 @@ def body(x, y, z):
 
 
 def head(x, y, z):
-    mc.setBlocks(x + 1, y + 32, z + 3, x - 12, y + 45, z + 16, param.WHITE_WOOL)
-    mc.setBlocks(x - 14, y + 33, z + 4, x - 13, y + 44, z + 15, param.WHITE_WOOL)
+    mc.setBlocks(x + 1, y + 32, z + 3, x + 1, y + 45, z + 16, param.WHITE_WOOL)
+    mc.setBlocks(x + 1, y + 32, z + 3, x - 12, y + 45, z + 3, param.WHITE_WOOL)
+    mc.setBlocks(x + 1, y + 32, z + 16, x - 12, y + 45, z + 16, param.WHITE_WOOL)
+    mc.setBlocks(x + 1, y + 32, z + 3, x - 12, y + 32, z + 16, param.WHITE_WOOL)
+    mc.setBlocks(x + 1, y + 45, z + 3, x - 12, y + 45, z + 16, param.WHITE_WOOL)
 
 
 def face(x, y, z):
+    mc.setBlocks(x - 14, y + 33, z + 4, x - 13, y + 44, z + 15, param.WHITE_WOOL)
     mc.setBlocks(x - 14, y + 37, z + 4, x - 13, y + 42, z + 15, param.WHITE_TERRACOTTA)
     mc.setBlocks(x - 14, y + 33, z + 6, x - 13, y + 36, z + 13, param.WHITE_TERRACOTTA)
     mc.setBlocks(x - 14, y + 33, z + 8, x - 14, y + 36, z + 11, param.PINK_CONCRETE)
