@@ -7,8 +7,14 @@ mc = Minecraft.create(port=param.PORT_MC)
 def leg(x, y, z):
     mc.setBlocks(x, y, z, x + 7, y + 1, z + 7, param.BROWN_TERRACOTTA)
     mc.setBlocks(x + 2, y, z + 2, x + 7, y + 1, z + 5, param.WHITE_TERRACOTTA)
-    mc.setBlocks(x, y + 2, z, x + 7, y + 11, z + 7, param.WHITE_TERRACOTTA)
-    mc.setBlocks(x - 1, y + 12, z - 1, x + 8, y + 21, z + 8, param.WHITE_WOOL)
+    mc.setBlocks(x, y + 2, z, x, y + 11, z + 7, param.WHITE_TERRACOTTA)
+    mc.setBlocks(x, y + 2, z, x + 7, y + 11, z, param.WHITE_TERRACOTTA)
+    mc.setBlocks(x + 7, y + 2, z, x + 7, y + 11, z + 7, param.WHITE_TERRACOTTA)
+    mc.setBlocks(x, y + 2, z + 7, x + 7, y + 11, z + 7, param.WHITE_TERRACOTTA)
+    mc.setBlocks(x - 1, y + 12, z - 1, x - 1, y + 21, z + 8, param.WHITE_WOOL)
+    mc.setBlocks(x + 8, y + 12, z - 1, x + 8, y + 21, z + 8, param.WHITE_WOOL)
+    mc.setBlocks(x - 1, y + 12, z - 1, x + 8, y + 21, z - 1, param.WHITE_WOOL)
+    mc.setBlocks(x - 1, y + 12, z + 8, x + 8, y + 21, z + 8, param.WHITE_WOOL)
 
 
 def body(x, y, z):
