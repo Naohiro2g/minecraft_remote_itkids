@@ -30,7 +30,7 @@ DISPLAY_COLS = 16
 
 # 画面の設定
 WINDOW_WIDTH = DISPLAY_COLS * DISPLAY_COL_INTV - DISPLAY_COL_MARGIN + WINDOW_MARGIN * 2
-WINDOW_HEIGHT = 640
+WINDOW_HEIGHT = 660
 
 # 初期化
 pygame.init()
@@ -243,6 +243,26 @@ while RUNNING:
                                           pygame.freetype.STYLE_DEFAULT, True)
     screen.blit(ref_code_surface, (REF_CHAR_X + 24, REF_CHAR_Y + ROWS * LARGE_DOT_INTV + 10))
     screen.blit(design_code_surface, (DESIGN_CHAR_X + 24, DESIGN_CHAR_Y + ROWS * LARGE_DOT_INTV + 10))
+
+    # キーガイドの表示
+    w_surface, _ = font1.render("W", BLACK, None)
+    a_surface, _ = font1.render("A", BLACK, None)
+    s_surface, _ = font1.render("S", BLACK, None)
+    d_surface, _ = font1.render("D", BLACK, None)
+    up_surface, _ = font1.render("↑", BLACK, None)
+    left_surface, _ = font1.render("←", BLACK, None)
+    down_surface, _ = font1.render("↓", BLACK, None)
+    right_surface, _ = font1.render("→", BLACK, None)
+
+    screen.blit(w_surface, (REF_CHAR_X - 40, REF_CHAR_Y + 70))
+    screen.blit(a_surface, (REF_CHAR_X - 60, REF_CHAR_Y + 100))
+    screen.blit(s_surface, (REF_CHAR_X - 40, REF_CHAR_Y + 100))
+    screen.blit(d_surface, (REF_CHAR_X - 20, REF_CHAR_Y + 100))
+
+    screen.blit(up_surface, (DESIGN_CHAR_X + COLS * LARGE_DOT_INTV + 20, DESIGN_CHAR_Y + 70))
+    screen.blit(left_surface, (DESIGN_CHAR_X + COLS * LARGE_DOT_INTV, DESIGN_CHAR_Y + 100))
+    screen.blit(down_surface, (DESIGN_CHAR_X + COLS * LARGE_DOT_INTV + 20, DESIGN_CHAR_Y + 100))
+    screen.blit(right_surface, (DESIGN_CHAR_X + COLS * LARGE_DOT_INTV + 40, DESIGN_CHAR_Y + 100))
 
     # 保存メッセージの表示
     if SAVE_MESSAGE_TIME and pygame.time.get_ticks() - SAVE_MESSAGE_TIME < SAVE_MESSAGE_STAY:
