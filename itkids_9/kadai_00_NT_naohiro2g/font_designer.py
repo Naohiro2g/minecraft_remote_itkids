@@ -48,6 +48,7 @@ LIGHT_RED = (255, 182, 193)
 DARK_BLUE = (0, 0, 139)
 LIGHT_BLUE = (173, 216, 230)
 PURPLE = (128, 0, 128)
+LIGHT_PURPLE = (216, 191, 216)
 
 # フォントの設定
 FONT_PATH = 'fonts/natumemozi.ttf'
@@ -117,12 +118,24 @@ while RUNNING:
                 blue_selection[0] = min(DISPLAY_COLS - 1, blue_selection[0] + 1)
             elif event.key == pygame.K_UP:
                 red_selection[1] = max(0, red_selection[1] - 1)
+                DESIGN_CHAR_INDEX = red_selection[1] * DISPLAY_COLS + red_selection[0]
+                if DESIGN_CHAR_INDEX < (0x7F - 0x20 + 1):
+                    design_char_data = font_data[DESIGN_CHAR_INDEX * ROWS:(DESIGN_CHAR_INDEX + 1) * ROWS]
             elif event.key == pygame.K_DOWN:
                 red_selection[1] = min(DISPLAY_ROWS - 1, red_selection[1] + 1)
+                DESIGN_CHAR_INDEX = red_selection[1] * DISPLAY_COLS + red_selection[0]
+                if DESIGN_CHAR_INDEX < (0x7F - 0x20 + 1):
+                    design_char_data = font_data[DESIGN_CHAR_INDEX * ROWS:(DESIGN_CHAR_INDEX + 1) * ROWS]
             elif event.key == pygame.K_LEFT:
                 red_selection[0] = max(0, red_selection[0] - 1)
+                DESIGN_CHAR_INDEX = red_selection[1] * DISPLAY_COLS + red_selection[0]
+                if DESIGN_CHAR_INDEX < (0x7F - 0x20 + 1):
+                    design_char_data = font_data[DESIGN_CHAR_INDEX * ROWS:(DESIGN_CHAR_INDEX + 1) * ROWS]
             elif event.key == pygame.K_RIGHT:
                 red_selection[0] = min(DISPLAY_COLS - 1, red_selection[0] + 1)
+                DESIGN_CHAR_INDEX = red_selection[1] * DISPLAY_COLS + red_selection[0]
+                if DESIGN_CHAR_INDEX < (0x7F - 0x20 + 1):
+                    design_char_data = font_data[DESIGN_CHAR_INDEX * ROWS:(DESIGN_CHAR_INDEX + 1) * ROWS]
             elif event.key == pygame.K_RETURN:
                 # エンターキーでデザイン用文字の変更を表示領域に反映
                 DESIGN_CHAR_INDEX = red_selection[1] * DISPLAY_COLS + red_selection[0]
@@ -183,7 +196,7 @@ while RUNNING:
                                 color = BLACK
                         else:
                             if [col, row] == blue_selection and [col, row] == red_selection:
-                                color = PURPLE
+                                color = LIGHT_PURPLE
                             elif [col, row] == blue_selection:
                                 color = LIGHT_BLUE
                             elif [col, row] == red_selection:
